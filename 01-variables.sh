@@ -14,3 +14,21 @@ username=$1
 password=$2
 
 echo "username is: $username, password is: $password"
+
+
+
+
+echo "please enter your username"
+
+read USERNAME # the value enetred above will be automatically attached to user variable 
+
+echo " username is : $USERNAME"
+
+
+echo "please enter your username"
+
+read -a USERNAME 
+
+echo "username is : $USERNAME"
+
+
