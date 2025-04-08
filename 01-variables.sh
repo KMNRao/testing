@@ -8,3 +8,9 @@ echo "$person2 : how r u?"
 echo "$person1 : are you practicing git?"
 echo "$person2 : yes i am practicing?"
 echo "$person1 : what about you?"
+
+
+username=$1
+password=$2
+
+echo "username is: $username, password is: $password"
