@@ -53,6 +53,8 @@ pipeline {
                   echo "Choice: ${params.CHOICE}"
 
                   echo "Password: ${params.PASSWORD}"
+
+                  echo "hello"
                 """
             }
         } 
