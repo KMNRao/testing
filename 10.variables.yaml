@@ -8,3 +8,17 @@
     - name: variables
   ansible.builtin.debug:
     msg: "I am learning {{Course}}, trainer {{Trainer}}, duration is {{Duration}}"
+
+    #============================================
+
+- name: variables from play level
+  hosts: localhost
+  vars_files:
+  - variables.yaml
+    
+  tasks:
+    - name: variables
+  ansible.builtin.debug:
+    msg: "I am learning {{Course}}, trainer {{Trainer}}, duration is {{Duration}}"
+
+
